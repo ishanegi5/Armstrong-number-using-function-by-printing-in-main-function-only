@@ -24,7 +24,7 @@ int armstrong(int num){
 int main()
 { int num;
   printf("Enter num: ");
-  scanf("%f",&num);
+  scanf("%d",&num);
  
   if( armstrong(num)){
         printf("%d is an armstrong number\n",num);
