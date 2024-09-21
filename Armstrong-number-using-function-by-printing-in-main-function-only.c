@@ -26,12 +26,13 @@ int main()
   printf("Enter num: ");
   scanf("%d",&num);
  
-  if( armstrong(num)){
+  if(armstrong(num)){
         printf("%d is an armstrong number\n",num);
     }
    
     else{
         printf("%d is not an armstrong number\n",num);
     }
+ return 0;
 }
 
