@@ -22,16 +22,16 @@ int armstrong(int num){
    
 }
 int main()
-{ float num;
+{ int num;
   printf("Enter num: ");
   scanf("%f",&num);
  
-  if( armstrong((int)num)){
-        printf("%d is an armstrong number\n",(int)num);
+  if( armstrong(num)){
+        printf("%d is an armstrong number\n",num);
     }
    
     else{
-        printf("%d is not an armstrong number\n",(int)num);
+        printf("%d is not an armstrong number\n",num);
     }
 }
 
